@@ -30,8 +30,10 @@ A stall can choose to list some/all products with an "indexer". A stall is a sma
 
   Returns 200 OKAY (application/json)<br/>
   ```{"shipped": <boolean>}```
-  
-<center><img src="https://i.imgur.com/SuoAxtp.png" width="60%"></center>
+ <br/>
+<p align="center">
+  <img src="https://i.imgur.com/SuoAxtp.png" width="60%">
+</p>
 
 
 
