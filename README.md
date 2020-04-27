@@ -2,7 +2,7 @@
 Diagon Alley is a decentralised market-stall protocol, that shifts emphasis from the frontend market to the merchants stall.
 
 ## Indexers
-An indexer is a simple frontend server and GUI that routes product, payment and shipping information between merchant and buyer. Each merchant has products in a "stall". The stall chooses what products to list with the indexer. An indexer has one endpoint.  
+An indexer is a simple frontend server and GUI that routes product, payment and shipping information between merchant and buyer. Each merchant has products in a *stall*. The stall chooses what products to list with the indexer. An indexer has one endpoint.  
 
 * `/register/<indexer-ID>` **POST** The `<indexer-ID>` is gennerated by the stall. the endpoint is for stalls to fetch rating data (0-100%), register products and check the indexer is online. 
 
@@ -15,7 +15,7 @@ An indexer is a simple frontend server and GUI that routes product, payment and 
 The indexer uses the `<stall-url>` and `<indexer-ID>` for the stall endpoints.
 
 ## Stalls
-A stall can choose to list some/all products with an "indexer". A stall is a small server that has three endpoints.
+A stall can choose to list some/all products with an *indexer*. A stall is a small server that has three endpoints.
 
 * `/products/<indexer-ID>` **GET** for fetching all products associated with an indexer ID
   
