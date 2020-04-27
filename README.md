@@ -5,7 +5,7 @@
 
 
 # Diagon Alley: Decentralised Market-Stall Protocol
-Diagon Alley is a decentralised market-stall protocol, that shifts emphasis from the frontend market to the merchants stall.
+Diagon Alley is a decentralised market-stall protocol, that shifts emphasis from the frontend market to the merchants stall. If an frontend market (indexer) gets taken down, merchants just point their stalls elsewhere.
 
 ## Indexers
 An indexer is a simple frontend server and GUI that routes product, payment and shipping information between merchant and buyer. Each merchant has products in a *stall*. The stall chooses what products to list with the indexer. An indexer has one endpoint.  
