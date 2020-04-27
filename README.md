@@ -9,14 +9,14 @@ A stall can choose to list some/all products with an "indexer". A stall is a sma
 
 * /products/<indexer-ID> GET for fetching all products associated with an indexer ID
   
-  Returns 201 CREATED (application/json)
+  Returns 201 CREATED (application/json)<br/>
   Product JSON list
 
 * /order/<indexer-ID> POST for placing an order and sending shipping data, returns a lightning-network invoice and checking(order) ID)
 
-  Body (application/json)
-  {"id": <string>, "address": <string>, "shippingzone": <integer>, "email": <string>, "quantity": <integer>}
-  Returns 201 CREATED (application/json)
+  Body (application/json)<br/>
+  {"id": <string>, "address": <string>, "shippingzone": <integer>, "email": <string>, "quantity": <integer>}<br/>
+  Returns 201 CREATED (application/json)<br/>
   {"checking_id": <string>,"payment_request": <string>}
 
 
