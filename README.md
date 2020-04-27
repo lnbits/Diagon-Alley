@@ -12,7 +12,7 @@ An indexer is a simple frontend server and GUI that routes product, payment and 
   Returns 200 OK (application/json)<br/>
   ```{"shopstatus": <boolean>, "rating": <int>}```
   
-The indexer uses the `<stall-url>` and `<indexer-ID>` to fetch products.
+The indexer uses the `<stall-url>` and `<indexer-ID>` for the stall endpoints.
 
 ## Stalls
 A stall can choose to list some/all products with an "indexer". A stall is a small server that has three endpoints.
