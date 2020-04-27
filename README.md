@@ -1,3 +1,9 @@
+ <br/>
+<p align="center">
+  <img src="https://i.imgur.com/SuoAxtp.png" width="60%">
+</p>
+
+
 # Diagon Alley: Decentralised Market-Stall Protocol
 Diagon Alley is a decentralised market-stall protocol, that shifts emphasis from the frontend market to the merchants stall.
 
@@ -35,10 +41,7 @@ A stall can choose to list some/all products with an *indexer*. A stall is a sma
 
   Returns 200 OK (application/json)<br/>
   ```{"shipped": <boolean>}```
- <br/>
-<p align="center">
-  <img src="https://i.imgur.com/SuoAxtp.png" width="60%">
-</p>
+
 
 
 
