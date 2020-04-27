@@ -23,7 +23,7 @@ A stall can choose to list some/all products with an *indexer*. A stall is a sma
   ```[{"product-id":<string>, "product-name":<string>, "categories":<list>, "description":<string>,  "image":<string>, "price":<int>, "quantity":<int>}, {"product-id":<string>, "product-name":<string>, "categories":<list>, "description":<string>,  "image":<string>, "price":<int>, "quantity":<int>}]```
 
 
-* `/order/<indexer-ID>` **POST** for placing an order and sending shipping data, returns a lightning-network invoice and checking/order ID
+* `/order/<indexer-ID>` **POST** for placing an order and sending shipping data. Returns a lightning-network invoice and checking/order ID
 
   Body (application/json)<br/>
   ```{"product-id": <string>, "address": <string>, "shippingzone": <integer>, "email": <string>, "quantity": <integer>}```
