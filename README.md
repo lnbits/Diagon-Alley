@@ -58,10 +58,10 @@ A stall can choose to list some/all products with an *indexer*. A stall is a sma
   Returns 201 CREATED (application/json)<br/>
   ```{"payment_request": <string>, "checking_id": <string>}```
   
-* `/checkshipped/<checking_id>` **GET** for checking if an order has been shipped
+* `/status/<checking_id>` **GET** for checking an order status.
 
   Returns 200 OK (application/json)<br/>
-  ```{"shipped": <boolean>}```
+  ```{"status": "SHIPPED" | "PAID" | "UNKNOWN"}```
 
 
 
